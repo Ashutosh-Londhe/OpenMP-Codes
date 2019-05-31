@@ -59,7 +59,7 @@ void merge_sort(int *inp, int* out, int n)
 	}
 
 	merge(inp, out, n);
-}// End of quick_sort function
+}// End of merge_sort function
 
 void merge(int *inp, int* out, int n)
 {
@@ -84,7 +84,7 @@ void merge(int *inp, int* out, int n)
 	}
 
 	memcpy(inp, out, n*sizeof(int));
-}// End of partition function
+}// End of merge function
 
 void print(int *inp, int n)
 {
